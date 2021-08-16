@@ -4,55 +4,55 @@
     "description": "Warsaw postcard",
     "id": "7567ec4b-b10c-48c5-9345-fc73c48a80aa",
     "price": 2.4,
-    "title": "Warszawa"
+    "title": "Warszawa Single-app"
   },
   {
     "count": 6,
     "description": "Wroclaw postcard",
     "id": "7567ec4b-b10c-48c5-9345-fc73c48a80a0",
     "price": 10,
-    "title": "Wroclaw"
+    "title": "Wroclaw Single-app"
   },
   {
     "count": 7,
     "description": "Gdansk postcard",
     "id": "7567ec4b-b10c-48c5-9345-fc73c48a80a2",
     "price": 23,
-    "title": "Gdansk"
+    "title": "Gdansk Single-app"
   },
   {
     "count": 12,
     "description": "Krakow postcard",
     "id": "7567ec4b-b10c-48c5-9345-fc73c48a80a1",
     "price": 15,
-    "title": "Krakow"
+    "title": "Krakow Single-app"
   },
   {
     "count": 7,
     "description": "Lodz postcard",
     "id": "7567ec4b-b10c-48c5-9345-fc73c48a80a3",
     "price": 23,
-    "title": "Lodz"
+    "title": "Lodz Single-app"
   },
   {
     "count": 8,
     "description": "Poznan postcard",
     "id": "7567ec4b-b10c-48c5-9345-fc73348a80a1",
     "price": 15,
-    "title": "Poznan"
+    "title": "Poznan Single-app"
   },
   {
     "count": 2,
     "description": "Sopot postcard",
     "id": "7567ec4b-b10c-48c5-9445-fc73c48a80a2",
     "price": 23,
-    "title": "Sopot"
+    "title": "Sopot Single-app"
   },
   {
     "count": 3,
     "description": "Katowice postcard",
     "id": "7567ec4b-b10c-45c5-9345-fc73c48a80a1",
     "price": 15,
-    "title": "Katowice"
+    "title": "Katowice Single-app"
   }
 ]
