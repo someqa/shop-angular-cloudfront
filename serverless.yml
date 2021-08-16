@@ -31,7 +31,7 @@ plugins:
 
 custom:
   client:
-    bucketName: someqa-task2-single-app-plugin # (see Configuration Parameters below)
+    bucketName: someqa-task2-single-app # (see Configuration Parameters below)
     distributionFolder: dist/app
   s3LocalPath: ${self:custom.client.distributionFolder}
   s3Bucket: ${self:custom.client.bucketName}
@@ -140,12 +140,16 @@ resources:
           Ref: WebAppS3Bucket
         PolicyDocument:
           Statement:
-            - Sid: PublicReadGetObject
+            - Sid: "AllowCloudFrontAccessIdentity"
               Effect: Allow
-              Principal: "*"
-              Action:
-                - s3:GetObject
+              Action: s3:GetObject
               Resource: arn:aws:s3:::${self:custom.s3Bucket}/*
+              Principal:
+                AWS:
+                  Fn::Join:
+                    - " "
+                    - - "arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity"
+                      - !Ref OriginAccessIdentity
     ## Specifying the CloudFront Distribution to server your Web Application
     WebAppCloudFrontDistribution:
       Type: AWS::CloudFront::Distribution

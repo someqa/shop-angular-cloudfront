@@ -6,7 +6,7 @@
   - [Cloudfront](https://d1n8osptxdcl70.cloudfront.net)
 
 - deployed with single-page-app plugin
-  - [S3](http://someqa-task2-single-app-plugin.s3-website-us-east-1.amazonaws.com/)
+  - [S3](http://someqa-task2-single-app.s3-website-us-east-1.amazonaws.com//)
   - [Cloudfront](https://d230bjekvyrwh7.cloudfront.net)
 
 # Shop Angular Cloudfront
